@@ -4,6 +4,7 @@ Keycloak SPIs
 Implementation of Mobile phone validation added to the registration form.
 
 Installation:
+0) use mvn package in registration-mobile-phone-action directory
 1) copy target/registration-mobile-phone-action.jar into %keycloak%/providers, where %keycloak% is you Keycloak home.
 2) add new language strings to your theme (no chaining possible? To be investigated):
   - missingMobilePhoneMessage
